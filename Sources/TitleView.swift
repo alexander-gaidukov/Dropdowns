@@ -49,9 +49,8 @@ open class TitleView: UIView {
 
   open override func layoutSubviews() {
     super.layoutSubviews()
-
-    button.sizeToFit()
     button.label.sizeToFit()
+    button.sizeToFit()
     button.frame.size.height = 44
     frame.size = button.frame.size
   }
