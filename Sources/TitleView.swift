@@ -52,6 +52,7 @@ open class TitleView: UIView {
     button.label.sizeToFit()
     button.sizeToFit()
     button.frame.size.height = 44
+    button.frame.size.width = max(button.frame.width, 200.0)
     frame.size = button.frame.size
   }
 
